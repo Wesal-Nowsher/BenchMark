@@ -1,0 +1,119 @@
+@font-face {
+    font-family: UniSansCAPS;
+    src: url(../font/UniSansThin.otf);
+}
+@font-face {
+    font-family: AvenirNext;
+    src: url("../font/AvenirNextLTPro-Regular.otf");
+}
+@font-face {
+    font-family: UniSansCAPSitalic;
+    src: url(../font/UniSansHeavyItalic.otf);
+}
+@font-face {
+    font-family: UniSansCAPSheavy;
+    src: url(../font/UniSansHeavy.otf);
+}
+@font-face {
+    font-family: UniSansCAPSthinitalic;
+    src: url(../font/UniSansThinItalic.otf);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Source Serif Pro', serif;
+}
+.custom-con{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+}
+.con{
+ width: 96%;
+}
+
+.custom-row {
+    margin-top: 25px;
+}
+.bench{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+        border: 2px solid #cea265;
+    width: 50px;
+}
+.bench h2{
+        margin-bottom: 0px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.bench h5{
+    margin-top: 0px;
+}
+.outer-1{
+    background-image: url(../Assets/pic-1.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        height: 530px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #283591;
+}
+.outer-2{
+    background-image: url(../Assets/pic-2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.custom-con-1{
+   width: 1334px !important;
+    margin-top: 20px;
+}
+.custom-col-6{
+    padding: 0px;
+}
+
+.outer-1 h1{
+    text-align: center;
+}
+.outer-2 h1{
+    text-align: center;
+}
+.button-1{
+    color: white;
+    background-color: #283591;
+    padding: 7px 35px 0px;
+    border: 1px solid #283591;
+    border-radius: 25px;
+}
+.button-2{
+    color: #283591;
+    background-color: white;
+    padding: 7px 35px 0px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.custom-con-2{
+      width: 1349px !important;
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+    background-color: #eceeef;
+}
+.custom-con-3{
+      width: 1349px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
