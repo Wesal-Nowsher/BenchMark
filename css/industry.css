@@ -121,13 +121,37 @@ border-radius: 5px;
 .card .whole-card i,.card .whole-card h2{
     color:#283591;
 }
+
 .card .whole-card:hover i,.card .whole-card:hover h2{
     color: white;
 }
+
 .card .whole-card p{
     color: #bca673;   
 }
+
 .card .whole-card:hover p{
     color: white;   
 }
+
+.next-step .row{
+    height: 200px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.next-step .row .button-2{
+    color: #283591;
+    background-color: #ddc692;
+    padding: 7px 35px 0px;
+    border: 1px solid white;
+    border-radius: 25px;
+
+}
+.next-step .row .button-2 p{
+    color:#242c64;
+}
+
 
