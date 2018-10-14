@@ -140,3 +140,8 @@ body{
     border-radius: 25px;
     margin-bottom: 60px;
 }
+.display-center{
+    display: flex;
+    justify-content: center;
+
+}
